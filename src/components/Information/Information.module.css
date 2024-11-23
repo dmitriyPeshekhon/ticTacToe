@@ -1,3 +1,29 @@
-.il {
-	color: blue;
+.info-container {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+
+.info {
+	margin: 0;
+	font-size: 40px;
+}
+
+.repeat-btn {
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 8px;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background: rgba(148,187,233,1);
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.repeat-btn:active {
+	box-shadow: none;
+	transform: scale(0.99, 0.99);
 }

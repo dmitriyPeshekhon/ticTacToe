@@ -1,3 +1,26 @@
-.fl {
-	color: gray;
+.list-buttons {
+	width: 500px;
+	height: 500px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 2px;
+}
+
+.button {
+	cursor: pointer;
+	font-size: 100px;
+	border: none;
+	background: rgb(115, 115, 115);
+	color: white;
+	border-radius: 5px;
+}
+
+.button:active {
+	transform: scale(0.98, 0.98);
+}
+
+.win {
+	background-color: rgb(130, 130, 130);
+	transform: scale(0.95, 0.95);
 }
