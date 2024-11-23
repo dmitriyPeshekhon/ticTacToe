@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Jura:wght@300..700&family=Lacquer&family=Shadows+Into+Light&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
-}
+	font-family: "Jura", sans-serif;}
 
 :root {
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

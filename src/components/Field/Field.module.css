@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lacquer&family=Shadows+Into+Light&display=swap');
+
 .list-buttons {
-	width: 500px;
-	height: 500px;
+	width: 600px;
+	height: 600px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	gap: 2px;
+	gap: 3px;
 }
 
 .button {
 	cursor: pointer;
-	font-size: 100px;
-	border: none;
-	background: rgb(115, 115, 115);
+	font-size: 120px;
+	font-family: "Architects Daughter", cursive;
+	border: solid 1px white;
+	background: transparent;
 	color: white;
 	border-radius: 5px;
 }
@@ -21,6 +24,6 @@
 }
 
 .win {
-	background-color: rgb(130, 130, 130);
+	background: rgba(255, 255, 255, 0.1);
 	transform: scale(0.95, 0.95);
 }
