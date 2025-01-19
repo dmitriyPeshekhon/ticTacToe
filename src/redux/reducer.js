@@ -1,4 +1,4 @@
-import { PLAYER_1, INITIAL_FIELDS } from '../constants';
+import { PLAYER_1, INITIAL_FIELDS, PLAYER_2 } from '../constants';
 
 const initialState = {
 	currentPlayer: PLAYER_1,
@@ -14,7 +14,7 @@ export const reducer = (state = initialState, action) => {
 		case 'USUALY_STEP': {
 			return {
 				...state,
-				currentPlayer: state.currentPlayer === 'X' ? 'O' : 'X',
+				currentPlayer: state.currentPlayer === PLAYER_1 ? PLAYER_2 : PLAYER_1,
 				fields: payload,
 			};
 		}
