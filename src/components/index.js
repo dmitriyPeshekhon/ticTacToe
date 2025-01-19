@@ -1,8 +1,3 @@
-export * from './App/AppContainer';
-export * from './App/AppLayout';
+export { ListFields } from './ListFields/ListFields';
 
-export * from './Field/FieldContainer';
-export * from './Field/FieldLayout';
-
-export * from './Information/InformationContainer';
-export * from './Information/InformationLayout';
+export { Information } from './Information/Information';
